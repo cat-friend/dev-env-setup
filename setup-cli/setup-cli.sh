@@ -200,6 +200,7 @@ append_python_setup() {
     # verify the string
     # continue
     # append to the file
+    echo "hello"
 }
 
 
@@ -211,7 +212,8 @@ setup_menu () {
     select choice in "${options[@]}"; do
         case $choice in
             $OH_MY_BASH_THEME)
-                oh_my_bash_setup
+                # oh_my_bash_setup
+                echo -e "\ncoming soon"
                 setup_menu
                 ;;
 
@@ -222,7 +224,8 @@ setup_menu () {
 
             $PYTHON)
                 echo -e "\nhissSSSS\n"
-                exit
+                echo "coming soon!"
+                setup_menu
                 ;;
 
             $EXIT)
