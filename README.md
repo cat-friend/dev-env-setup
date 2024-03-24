@@ -20,11 +20,15 @@ Instructions and tools for setting up a new developer environment on Windows OS
   ```
 
 ## Node.js
-1. Install nvm
+1. Install [nvm](https://github.com/nvm-sh/nvm)
 2. Install node
-3. Install npm
+```sh
+nvm install <Node version number>
+```
+  1. To verify that node was installed, use `node --verison` or `which node`
 
 ## Git and GitHub
+
 
 ## Python
 1. Install dependencies
