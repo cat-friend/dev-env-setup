@@ -28,7 +28,11 @@ nvm install <Node version number>
   1. To verify that node was installed, use `node --verison` or `which node`
 
 ## Git and GitHub
-
+1. Install Git
+   ```sh
+   sudo apt install git-all
+   ```
+2. [Set up SSH credentials](https://hackmd.io/@AgDXdHgSSPKsJIhCxlaTuA/BJtNu88fF)
 
 ## Python
 1. Install dependencies
