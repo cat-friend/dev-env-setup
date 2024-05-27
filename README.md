@@ -29,6 +29,22 @@ Instructions and tools for setting up a new developer environment on Windows OS
    ```
 2. [Set up SSH credentials](https://hackmd.io/@AgDXdHgSSPKsJIhCxlaTuA/BJtNu88fF)
 
+### Global `.gitignore`
+1. Create a `.gitignore` file and point your git config to the `.gitignore` file
+  ```bash
+  touch ~/.gitignore && git config --global core.excludesFile '~/.gitignore'
+  ```
+
+1. Add to the file directly or using shell commands:
+  ```bash
+  echo "<<pattern to ignore>>" >> ~/.gitignore
+  ```
+
+  Example:
+  ```bash
+  echo "*__notes.*" >> ~/.gitignore
+  ```
+
 ## 3. Terminal customization
 1. Install oh-my-bash
 
